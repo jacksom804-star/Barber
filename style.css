@@ -6,8 +6,8 @@
 }
 
 body {
-  background: #0d0d0d;
-  color: #ffffff;
+  background: #0b0b0b;
+  color: #fff;
 }
 
 /* HERO */
@@ -35,23 +35,17 @@ body {
 }
 
 .hero p {
-  color: #bbbbbb;
+  color: #aaa;
   margin-bottom: 25px;
 }
 
 .btn-whatsapp {
-  display: inline-block;
   background: #25d366;
   color: #000;
-  padding: 15px 25px;
+  padding: 14px 25px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  transition: 0.3s;
-}
-
-.btn-whatsapp:hover {
-  background: #1ebe5d;
 }
 
 /* SERVICES */
@@ -62,7 +56,6 @@ body {
 
 .services h2 {
   margin-bottom: 30px;
-  font-size: 26px;
 }
 
 .card {
@@ -83,7 +76,7 @@ body {
 }
 
 .card p {
-  color: #bbbbbb;
+  color: #bbb;
   margin-bottom: 10px;
 }
 
@@ -93,10 +86,15 @@ body {
   font-weight: bold;
 }
 
+/* BARBA SIN IMAGEN */
+.no-image {
+  padding: 30px 15px;
+}
+
 /* FOOTER */
 footer {
   text-align: center;
-  padding: 30px 10px;
-  color: #bbbbbb;
+  padding: 25px 10px;
+  color: #aaa;
   font-size: 14px;
 }
